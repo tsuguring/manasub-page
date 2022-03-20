@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+
+.logo {
+  width: 210px;
+  margin-top: 14px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #38c235;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 4%;
+  padding: 0 4%;
+}
+
+/* home */
+
+.home-content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-main p {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  padding-left: 0px;
+}
+
+.footer a {
+  color: rgb(24, 93, 255);
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
