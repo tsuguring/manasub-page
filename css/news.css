@@ -21,6 +21,7 @@ img {
 
 ul {
   list-style: none;
+  padding-left: 0px;
 }
 
 /* header */
@@ -93,10 +94,6 @@ ul {
   align-items: center;
 }
 
-.footer-nav {
-  padding-left: 0px;
-}
-
 .footer a {
   color: rgb(24, 93, 255);
 }
@@ -105,4 +102,23 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .page-header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
