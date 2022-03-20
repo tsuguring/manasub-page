@@ -9,9 +9,8 @@ html {
 body {
   line-height: 1.7;
   color: #432;
-  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN",
-    "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
-    sans-serif;
+  font-family: "Verdana", "游ゴシック", "YuGothic", "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
 }
 
 a {
