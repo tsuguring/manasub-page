@@ -109,11 +109,20 @@ ul {
 }
 
 .sub-content {
-  width: 30%;
+  width: 27%;
   justify-content: center;
-  padding: 10px;
+  padding: 5px 20px 5px;
   border: 1px solid rgb(197, 197, 197);
   border-radius: 20px;
+}
+
+.sub-content-title {
+  display: flex;
+  align-items: center;
+}
+
+.sub-content-title i {
+  margin-right: 10px;
 }
 
 /* footer */
