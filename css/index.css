@@ -78,7 +78,8 @@ ul {
 }
 
 .home-img {
-  width: 300px;
+  width: 450px;
+  padding-left: 50px;
 }
 
 .home-text {
@@ -144,6 +145,12 @@ ul {
 }
 
 /* mobile */
+
+@media (max-width: 1200px) {
+  .home-img {
+    width: 350px;
+  }
+}
 
 @media (max-width: 970px) {
   .home-headline {
